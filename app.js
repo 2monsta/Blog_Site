@@ -56,6 +56,11 @@ app.post("/blogs", function(req, res){
 });
 
 
+    //SHOW ROUTE
+app.get("/blogs/:id", function(req, res){
+    
+});
+
 
 
 app.listen(process.env.PORT, process.env.IP, function(){
